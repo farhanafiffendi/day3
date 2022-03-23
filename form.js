@@ -79,8 +79,8 @@ function submitData() {
 
     let a = document.createElement('a') //pembuatan tag a
 
-    a.href = `mailto:${emailReceiver}?subject=${subject}&body= hallo my name ${name} please call me ${phone} my message ${message}`
-
+    a.href = `mailto:${emailReceiver}?subject=${subject}&body= hallo i am ${name} %0D%0A you can call my number ${phone} %0D%0A welcome and ${message}`
+    
     a.click() //menjalankan tag a
 
 }
